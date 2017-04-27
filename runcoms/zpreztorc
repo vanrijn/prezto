@@ -93,6 +93,7 @@ zstyle ':prezto:module:git:info' verbose no
 # Auto set to 'off' on dumb terminals.
 #zstyle ':prezto:module:prompt' theme 'paradox'
 zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt:theme:sorin' shortPWD 'N'
 
 #
 # Ruby
