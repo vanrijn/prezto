@@ -96,10 +96,9 @@ zstyle ':prezto:module:git:info' verbose no
 # Auto set to 'off' on dumb terminals.
 #zstyle ':prezto:module:prompt' theme 'paradox'
 zstyle ':prezto:module:prompt' theme 'sorin'
-zstyle ':prezto:module:prompt:theme:sorin' shortPWD 'N'
 
 # Set how themes that use promptpwd function display the pwd, can be 'short', 'long', or 'full'
-# zstyle ':prezto:module:prompt' pwd-length 'short'
+zstyle ':prezto:module:prompt' pwd-length 'short'
 
 #
 # Ruby
@@ -160,9 +159,12 @@ zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
 
 # Set the tab title format.
 zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
+<<<<<<< HEAD
 
 # Set the terminal multiplexer title format.
 # zstyle ':prezto:module:terminal:multiplexer-title' format '%s'
+=======
+>>>>>>> e494cce68a698884ed989400cb9c5df6c10fd890
 
 #
 # Tmux
